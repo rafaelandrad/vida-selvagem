@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@keyframes pulsar {
+    from {transform: scale(1);}
+    to {transform: scale(1.05);}
+    
+}
+
+:root {
+    --cor-primaria: #11120f;
+    --cor-secundaria: black;
+    --cor-terciaria: #efefef;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CSS do header*/
+
+header {
+    background-color: var(--cor-secundaria);
+}
+
+.imagensmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 3% 1% 1%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 5vw;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+
+.botaomenu {
+    background-color: var(--cor-secundaria);
+}
+
+.menu img {
+    width: 2vw;
+}
+
+.menuaberto {
+    display: none;
+    position: absolute;
+    box-shadow: 1px 1px 5px black;
+    z-index: 1;
+    background-color: #11120f;
+}
+
+.menuaberto a {
+    display: block;
+    color: #efefef;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.menu:hover .menuaberto {
+    display: block;
+}
+
+header p {
+    color: var(--cor-terciaria);
+    font-family: 'Caudex', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+/*CSS do main*/
+
+main {
+    background-color: var(--cor-primaria);
+}
+
+.globocentral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+}
+
+.globocentral img {
+    animation-name: pulsar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*CSS do footer*/
+
+footer {
+    background-color: var(--cor-secundaria);
+}
+
+.conteudofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-terciaria);
+    padding: 10px 0;
+}
+
+.logofooter {
+    font-family: 'Caudex', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.0rem;
+    justify-content: center;
+    font-weight: bold;
+}
+.logofooter img {
+    width: 3vw;
+}
+
