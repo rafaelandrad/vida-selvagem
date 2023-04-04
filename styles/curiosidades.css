@@ -3,13 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5vw;
+    padding: 2vw;
 }
 
 .curiosidades_titulo {
     font-family: 'Caudex', serif;
     font-weight: bold;
     color: var(--cor-quaternaria);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .curiosidades_africa {
@@ -29,4 +31,41 @@
     width: 100%;
     
 }
+
+.curiosidades_polos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.curiosidades_polos_txt {
+    width: 45%;
+    color: var(--cor-terciaria);
+}
+
+.curiosidades_polos_img img {
+    width: 100%;
+    
+}
+
+.curiosidades_tropical {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.curiosidades_tropical_txt {
+    width: 45%;
+    color: var(--cor-terciaria);
+}
+
+.curiosidades_tropical_img img {
+    width: 100%;
+    
+}
+
 
