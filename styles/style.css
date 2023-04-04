@@ -28,7 +28,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 3% 1% 1%;
+    padding: 1%;
 }
 
 .logo {
@@ -64,6 +64,8 @@ header {
     box-shadow: 1px 1px 5px black;
     z-index: 1;
     background-color: var(--cor-primaria);
+    right: 0;
+    min-width: 160px;
 }
 
 .menuaberto a {
