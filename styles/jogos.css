@@ -13,3 +13,28 @@
     color: var(--cor-quaternaria);
     font-size: 2rem;
 }
+
+.jogo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.jogo1_txt {
+    width: 45%;
+    color: var(--cor-terciaria);
+    font-size: 1.2rem;
+}
+
+.jogo1_txt h2 {
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 1.4rem;
+}
+
+.jogo1_img img {
+    width: 100%;
+    border-radius: 10px;
+}

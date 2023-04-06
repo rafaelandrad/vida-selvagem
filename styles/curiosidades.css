@@ -25,6 +25,7 @@
 .curiosidades_africa_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .curiosidades_africa_img img {
@@ -43,6 +44,7 @@
 .curiosidades_polos_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .curiosidades_polos_img img {
@@ -61,6 +63,7 @@
 .curiosidades_tropical_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .curiosidades_tropical_img img {

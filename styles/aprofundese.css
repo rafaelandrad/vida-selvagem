@@ -25,6 +25,7 @@
 .aprofundese_cerrado_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .aprofundese_cerrado_img img {
@@ -42,6 +43,7 @@
 .aprofundese_polos_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .aprofundese_polos_img img {
@@ -60,6 +62,7 @@
 .aprofundese_doc_txt {
     width: 45%;
     color: var(--cor-terciaria);
+    font-size: 1.2rem;
 }
 
 .aprofundese_doc_img img {
