@@ -7,6 +7,11 @@
     padding: 2vw;
 }
 
+.curiosidades p {
+    text-align: justify;
+    color: var(--cor-quaternaria);
+}
+
 .curiosidades_titulo {
     font-family: 'Caudex', serif;
     font-weight: bold;

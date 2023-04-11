@@ -8,11 +8,22 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 10px solid rgb(61, 163, 21);
+    border: 10px solid rgb(45, 59, 39);
     margin: 3%;
     border-radius: 10px;
 }
 
+.telajogo1 p {
+    color: var(--cor-quaternaria);
+    text-align: justify;
+    width: 20vw;
+}
+
+
+.animal {
+    cursor: pointer;
+    width: 20vw;
+}
 
 /* CSS da esquerda*/
 

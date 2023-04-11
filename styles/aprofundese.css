@@ -7,6 +7,11 @@
     padding: 2vw;
 }
 
+.aprofundese p {
+    text-align: justify;
+    color: var(--cor-quaternaria);
+}
+
 .aprofundese_titulo {
     font-family: 'Caudex', serif;
     font-weight: bold;
