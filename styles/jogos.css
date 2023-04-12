@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 5vw;
     padding: 2vw;
+    color: var(--cor-quaternaria);
 }
 
 .jogos_titulo {
@@ -13,6 +14,7 @@
     color: var(--cor-quaternaria);
     font-size: 2rem;
 }
+
 
 .jogo1 {
     display: flex;
@@ -24,7 +26,6 @@
 
 .jogo1_txt {
     width: 45%;
-    color: var(--cor-terciaria);
     font-size: 1.2rem;
 }
 
@@ -49,7 +50,6 @@
 
 .jogo2_txt {
     width: 45%;
-    color: var(--cor-terciaria);
     font-size: 1.2rem;
 }
 
