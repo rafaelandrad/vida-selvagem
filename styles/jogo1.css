@@ -17,7 +17,11 @@ main {
     color: var(--cor-quaternaria);
     text-align: justify;
     width: 20vw;
-    opacity: 0;
+    opacity: 0%;
+}
+
+.mudacor {
+    color: aqua;
 }
 
 
