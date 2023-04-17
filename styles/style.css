@@ -142,3 +142,92 @@ footer {
     width: 3vw;
 }
 
+@media screen and (max-width: 480px){
+    .globocentral {
+        padding: 70% 10%;
+    }    
+    
+    .globocentral img {
+        width: 80vw;
+    }
+
+    .logo img {
+        width: 12vw;
+    }
+
+    .logo p {
+        font-size: 1.5rem;
+    }
+    
+    .logofooter img {
+        width: 11vw;
+    }
+
+    .logofooter p {
+        font-size: 1.5rem;
+    }
+
+    .botaomenu img {
+        width: 7vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 912px) {
+    .globocentral {
+        padding: 50% 10%;
+    }    
+    
+    .globocentral img {
+        width: 80vw;
+    }
+
+    .logo img {
+        width: 12vw;
+    }
+
+    .logo p {
+        font-size: 3rem;
+    }
+    
+    .logofooter img {
+        width: 11vw;
+    }
+
+    .logofooter p {
+        font-size: 2.5rem;
+    }
+
+    .botaomenu img {
+        width: 8vw;
+    }
+}
+
+@media screen and (min-width: 913px) and (max-width: 1280px) {
+    .globocentral {
+        padding: 20% 10%;
+    }    
+    
+    .globocentral img {
+        width: 80vw;
+    }
+
+    .logo img {
+        width: 10vw;
+    }
+
+    .logo p {
+        font-size: 2.6rem;
+    }
+    
+    .logofooter img {
+        width: 8vw;
+    }
+
+    .logofooter p {
+        font-size: 2rem;
+    }
+
+    .botaomenu img {
+        width: 4vw;
+    }
+}

@@ -77,3 +77,122 @@
 }
 
 
+/*
+Configurações Media Queries
+*/
+
+@media screen and (max-width: 480px){ 
+
+    .logo img {
+        width: 13vw;
+    }
+
+    .logo p {
+        font-size: 1.5rem;
+    }
+    
+    .botaomenu img {
+        width: 7vw;
+    }
+
+    .curiosidades_titulo {
+        text-align: center;
+    }
+    
+    .curiosidades_africa {
+        flex-direction: column
+    }
+
+    .curiosidades_africa_txt {
+        width: 86%;
+        padding-bottom: 10%;
+    }
+
+    .curiosidades_polos {
+        flex-direction: column
+    }
+
+    .curiosidades_polos_txt {
+        width: 85%;
+        padding-bottom: 10%;
+    }
+
+    .curiosidades_tropical {
+        flex-direction: column
+    }
+
+    .curiosidades_tropical_txt {
+        width: 85%;
+        padding-bottom: 10%;
+    }
+
+    .logofooter img {
+        width: 11vw;
+    }
+
+    .logofooter p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 912px) {
+
+    .logo img {
+        width: 10vw;
+    }
+
+    .logo p {
+        font-size: 2.5rem;
+    }
+    
+    .botaomenu img {
+        width: 7vw;
+    }
+    
+    .aprofundese_cerrado_img {
+        width: ;
+    }
+
+    .aprofundese_cerrado_txt {
+        width: ;
+    }
+
+    .logofooter img {
+        width: 11vw;
+    }
+
+    .logofooter p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 913px) and (max-width: 1280px) {
+
+    .logo img {
+        width: 10vw;
+    }
+
+    .logo p {
+        font-size: 2.6rem;
+    }
+    
+    .botaomenu img {
+        width: 4vw;
+    }
+
+    .aprofundese_cerrado_img {
+        width: ;
+    }
+
+    .aprofundese_cerrado_txt {
+        width: ;
+    }
+
+    .logofooter img {
+        width: 8vw;
+    }
+
+    .logofooter p {
+        font-size: 2rem;
+    }
+}
