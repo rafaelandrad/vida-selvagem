@@ -110,32 +110,34 @@ Configurações Media Queries
         width: 7vw;
     }
     
-    .bichos_direita {
-        padding: 0% 10%;
-    }
-
     .bichos_macaco {
-        flex-direction: column
-    }
-
-    .bichos_leao {
-        flex-direction: column
+        flex-direction: column;
     }
 
     .bichos_lobo {
-        flex-direction: column
-    }
-
-    .bichos_pantera {
-        flex-direction: column
+        flex-direction: column;
     }
 
     .bichos_urso {
-        flex-direction: column
+        flex-direction: column;
+    }
+
+    .bichos_leao {
+        flex-direction: column;
     }
 
     .bichos_javali {
-        flex-direction: column
+        flex-direction: column;
+    }
+
+    .bichos_pantera {
+        flex-direction: column;
+    }
+
+    .telajogo1 p {
+        font-size: 0.85em;
+        padding: 10% 0% 20% 0%;
+        width: 35vw;
     }
 
     .logofooter img {
@@ -159,6 +161,36 @@ Configurações Media Queries
     
     .botaomenu img {
         width: 6vw;
+    }
+
+    .bichos_macaco {
+        flex-direction: column;
+    }
+
+    .bichos_lobo {
+        flex-direction: column;
+    }
+
+    .bichos_urso {
+        flex-direction: column;
+    }
+
+    .bichos_leao {
+        flex-direction: column;
+    }
+
+    .bichos_javali {
+        flex-direction: column;
+    }
+
+    .bichos_pantera {
+        flex-direction: column;
+    }
+
+    .telajogo1 p {
+        font-size: 1em;
+        padding: 10% 0% 20% 0%;
+        width: 35vw;
     }
 
     .logofooter img {
@@ -186,12 +218,34 @@ Configurações Media Queries
         width: 4vw;
     }
 
-    .aprofundese_cerrado_img {
-        width: ;
+    .bichos_macaco {
+        flex-direction: column;
     }
 
-    .aprofundese_cerrado_txt {
-        width: ;
+    .bichos_lobo {
+        flex-direction: column;
+    }
+
+    .bichos_urso {
+        flex-direction: column;
+    }
+
+    .bichos_leao {
+        flex-direction: column;
+    }
+
+    .bichos_javali {
+        flex-direction: column;
+    }
+
+    .bichos_pantera {
+        flex-direction: column;
+    }
+
+    .telajogo1 p {
+        font-size: 1.2em;
+        padding: 10% 0% 20% 0%;
+        width: 35vw;
     }
 
     .logofooter img {
